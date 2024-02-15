@@ -2,6 +2,8 @@ target_reg = ['eax', 'ebx', 'ecx', 'edx', 'esi', 'edi', 'esp', 'ebp',
               'rax', 'rbx', 'rcx', 'rdx', 'rsi', 'rdi', 'rsp', 'rbp',
               'r8', 'r9', 'r10', 'r11', 'r12', 'r13', 'r14', 'r15']
 
+# Currently struggling to identify indirect calls like: "call dword [...", "call [rsp...]". Any help is welcome.
+
 # The following code iterates through each function to identify and display indirect calls, potentially generating a considerable amount of output.
 
 #"""
